@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	cloudflare "github.com/cloudflare/cloudflare-go"
+	cloudflare "github.com/cwlowder/cloudflare-go"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	cloudflare "github.com/cloudflare/cloudflare-go"
+	cloudflare "github.com/cwlowder/cloudflare-go"
 	"github.com/urfave/cli/v2"
 )
 
@@ -126,7 +126,7 @@ func zoneCreateLockdown(c *cli.Context) error {
 		cli.ShowCommandHelp(c, "targets and values does not match") //nolint
 		return nil
 	}
-	var zonelockdownconfigs = []cloudflare.ZoneLockdownConfig{}
+	zonelockdownconfigs := []cloudflare.ZoneLockdownConfig{}
 	for index := 0; index < len(targets); index++ {
 		zonelockdownconfigs = append(zonelockdownconfigs, cloudflare.ZoneLockdownConfig{
 			Target: c.StringSlice("targets")[index],

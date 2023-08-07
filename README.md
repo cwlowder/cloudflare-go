@@ -1,8 +1,8 @@
 # cloudflare-go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/cloudflare/cloudflare-go.svg)](https://pkg.go.dev/github.com/cloudflare/cloudflare-go)
-![Test](https://github.com/cloudflare/cloudflare-go/workflows/Test/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cloudflare/cloudflare-go?style=flat-square)](https://goreportcard.com/report/github.com/cloudflare/cloudflare-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/cwlowder/cloudflare-go.svg)](https://pkg.go.dev/github.com/cwlowder/cloudflare-go)
+![Test](https://github.com/cwlowder/cloudflare-go/workflows/Test/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cwlowder/cloudflare-go?style=flat-square)](https://goreportcard.com/report/github.com/cwlowder/cloudflare-go)
 
 > **Note**: This library is under active development as we expand it to cover
 > our (expanding!) API. Consider the public API of this package a little
@@ -26,7 +26,7 @@ this project.
 You need a working Go environment. We officially support only currently supported Go versions according to [Go project's release policy](https://go.dev/doc/devel/release#policy).
 
 ```
-go get github.com/cloudflare/cloudflare-go
+go get github.com/cwlowder/cloudflare-go
 ```
 
 ## Getting Started
@@ -40,7 +40,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/cloudflare/cloudflare-go"
+	"github.com/cwlowder/cloudflare-go"
 )
 
 func main() {
@@ -66,7 +66,7 @@ func main() {
 ```
 
 Also refer to the
-[API documentation](https://pkg.go.dev/github.com/cloudflare/cloudflare-go) for
+[API documentation](https://pkg.go.dev/github.com/cwlowder/cloudflare-go) for
 how to use this package in-depth.
 
 ## Experimental improvements

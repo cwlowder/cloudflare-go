@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	cloudflare "github.com/cloudflare/cloudflare-go"
+	cloudflare "github.com/cwlowder/cloudflare-go"
 )
 
 var exampleNewPageRule = cloudflare.PageRule{

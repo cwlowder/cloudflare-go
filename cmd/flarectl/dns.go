@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudflare/cloudflare-go"
+	"github.com/cwlowder/cloudflare-go"
 	"github.com/urfave/cli/v2"
 )
 

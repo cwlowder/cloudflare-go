@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cloudflare/cloudflare-go"
+	"github.com/cwlowder/cloudflare-go"
 )
 
 func ExampleAPI_ListDNSRecords_all() {

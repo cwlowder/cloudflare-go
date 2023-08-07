@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/cloudflare/cloudflare-go"
+	"github.com/cwlowder/cloudflare-go"
 	"github.com/urfave/cli/v2"
 )
 
@@ -104,9 +104,7 @@ func firewallAccessRuleCreate(c *cli.Context) error {
 		Notes:         notes,
 	}
 
-	var (
-		rules []cloudflare.AccessRule
-	)
+	var rules []cloudflare.AccessRule
 
 	switch {
 	case accountID != "":
